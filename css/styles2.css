@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.container1 {
+    margin: 50px;
+}
+
+.span-container1 {
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+}
+
+.span-container1:nth-child(odd) {
+    background-color: rgb(36, 190, 36);
+}
+
+.container2 {
+    margin: 50px;
+}
+
+.span-container2 {
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+}
+
+.em-container2 {
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+}
+
+.span-container2:nth-child(odd){
+    background-color: rgb(36, 190, 36);
+}
+
+.container3 {
+    margin: 50px;
+}
+
+.span-container3 {
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+}
+
+.em-container3 {
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+}
+
+.span-container3:nth-of-type(1), .span-container3:nth-of-type(3), .span-container3:nth-of-type(5), .span-container3:nth-of-type(7) {
+    background-color: rgb(36, 190, 36);
+}
+
